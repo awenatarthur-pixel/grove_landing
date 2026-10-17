@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Privacy Policy — Grove</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --forest-900:#153826; --moss-600:#52796f; --gold-500:#e9c46a; --gold-600:#d4a84a;
+    --parchment-50:#faf6ee; --parchment-100:#f2ecdd; --bark-700:#6b4423; --bark-900:#3f2a17;
+    --shadow-card: 0 2px 14px rgba(15,35,24,0.08);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--parchment-50); color: var(--forest-900);
+    font-family: 'Manrope', sans-serif; line-height: 1.65; -webkit-font-smoothing: antialiased;
+  }
+  .nav {
+    position: sticky; top: 0; z-index: 10; background: rgba(250,246,238,0.9); backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(107,68,35,0.08); padding: 14px 24px;
+  }
+  .nav a { text-decoration: none; color: var(--forest-900); font-family: 'Fraunces', serif; font-weight: 700; font-size: 18px; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+  h1 { font-family: 'Fraunces', serif; font-weight: 600; font-size: clamp(28px,4vw,38px); margin: 0 0 6px; letter-spacing: -0.01em; }
+  h2 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 21px; margin: 36px 0 12px; }
+  p, li { font-size: 15px; color: var(--bark-900); }
+  em { color: var(--bark-700); font-size: 14px; }
+  a { color: var(--moss-600); }
+  blockquote {
+    background: var(--parchment-100); border-left: 3px solid var(--gold-600);
+    margin: 18px 0; padding: 14px 18px; border-radius: 0 12px 12px 0; font-size: 14px; color: var(--bark-700);
+  }
+  hr { border: none; border-top: 1px solid var(--parchment-100); margin: 36px 0; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  .doc-footer { font-size: 13px; color: var(--bark-700); font-style: italic; }
+  footer { text-align: center; padding: 30px; color: var(--bark-700); font-size: 13px; }
+</style>
+</head>
+<body>
+<nav class="nav"><a href="index.html">🌱 Grove</a></nav>
+<div class="wrap">
+<h1>Grove — Privacy Policy</h1>
+<p><em>Last updated: 28 August 2026</em></p>
+<p>This policy explains what information Grove collects, how it's used, and the choices you have. We've written it to describe exactly what the app actually does today — not a generic template — so please update the bracketed sections and re-read it whenever Grove's functionality changes (e.g. if you add real accounts or payments).</p>
+<h2>The short version</h2>
+<ul>
+<li>Grove doesn't require an account, and doesn't collect your name, email, or any personal identifier just to use the app.</li>
+<li>Your habit data, points, and grove layout are stored <strong>only in your own browser</strong> (via <code>localStorage</code>). We don't receive or store it on any server.</li>
+<li>If you join the email waitlist on our landing page, that email is collected and stored by our form provider (Formspree), for the sole purpose of contacting you about Grove.</li>
+<li>We use privacy-friendly analytics (Vercel Analytics) to see aggregate traffic — not to track individuals.</li>
+<li>We don't sell your data, and we don't show third-party ads.</li>
+</ul>
+<h2>What we collect</h2>
+<p><strong>In the app itself:</strong>
+Grove stores your habits, streaks, points, Sparks, grove layout, and preferences locally in your browser. This data:
+- Never leaves your device or gets sent to us
+- Is not backed up by us — clearing your browser data or switching devices will lose it
+- Is not linked to any identity, since there's no account system</p>
+<p><strong>On the landing page:</strong>
+If you submit your email to join the waitlist, we collect:
+- The email address you provide</p>
+<p>This is used only to notify you about Grove's progress and launch. We use Formspree to process this form; their privacy policy governs how the submission is transmitted and briefly stored before reaching us. We don't add you to any other list or share this address with third parties.</p>
+<p><strong>Site analytics:</strong>
+We use Vercel Analytics on both the landing page and the app to understand traffic (e.g. page views, referral sources) in aggregate. This does not use cookies or track you individually across sites.</p>
+<h2>What we don't do</h2>
+<ul>
+<li>We don't require sign-up or login</li>
+<li>We don't collect payment information (all "purchases" in the app are currently a non-functional demo — no real transaction occurs)</li>
+<li>We don't use tracking cookies or third-party advertising pixels</li>
+<li>We don't sell or share personal data with advertisers</li>
+</ul>
+<h2>Your choices</h2>
+<ul>
+<li><strong>App data</strong>: since it's stored only in your browser, you can clear it any time via your browser's settings, or using the in-app "Reset grove" option.</li>
+<li><strong>Email list</strong>: contact us at arthur.awenat@outlook.com to be removed from the waitlist at any time.</li>
+</ul>
+<h2>Children's privacy</h2>
+<p>Grove is not directed at children under 13, and we don't knowingly collect information from children under 13.</p>
+<h2>Changes to this policy</h2>
+<p>If Grove's functionality changes — for example, if we add real user accounts, cloud sync, or payment processing — this policy will be updated to reflect what data that requires, and the "last updated" date above will change accordingly. Material changes affecting how we handle personal data will be called out clearly, not buried in a diff.</p>
+<h2>Contact</h2>
+<p>Questions about this policy or your data: <strong>arthur.awenat@outlook.com</strong></p>
+<hr />
+<p><em>This document is a plain-language draft, not legal advice. If Grove starts collecting more data (accounts, payments) or operates in a jurisdiction with specific requirements (e.g. GDPR in the EU/UK, CCPA in California), consider having this reviewed by a lawyer before relying on it for compliance.</em></p>
+</div>
+<footer>© Grove. <a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a></footer>
+</body>
+</html>
